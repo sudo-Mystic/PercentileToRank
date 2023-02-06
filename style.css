@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  background-image: url("https://media.tenor.com/TAIxD-ulneYAAAAC/anime-anime-background.gif");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+#inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+input[type="number"],
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #5bc7c3;
+  color: #36402f;
+  background-color: transparent;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#outputContainer {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  input[type="number"],
+  button {
+    font-size: 16px;
+  }
+  #outputContainer {
+    font-size: 20px;
+  }
+  #footer {
+    font-size: 14px;
+  }
+}
