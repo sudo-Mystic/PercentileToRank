@@ -2,9 +2,9 @@ document.getElementById("submitBtn").addEventListener("click", function() {
 
   var score = document.getElementById("score").value;
 
-  if (isNaN(score) || score === "" || score > 100) {
+  if (isNaN(score) || score === "" || score > 100 || score < 0) {
 
-    alert("Please enter a valid NTA Score less than or equal to 100.");
+    alert("Please enter a valid NTA Score between 0 to 100.");
 
     return;
 
