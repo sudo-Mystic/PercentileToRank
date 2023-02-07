@@ -8,14 +8,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #282828;
 }
-#inputContainer {
+#inputForm {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
 }
-input[type="number"],
+input,
 button {
   font-size: 36px;
   padding: 30px 50px;
@@ -57,8 +57,3 @@ button {
   font-size: 48px;
 
 }
-
-
-
-
-
