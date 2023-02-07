@@ -1,96 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 body {
-
-  background-image: url("https://giphy.com/gifs/travel-mars-gifts-4H5jdBI1AEvS2xlra6");
-
+  background-image: url("https://media.tenor.com/ISYrPVY-mrUAAAAC/background.gif");
   background-size: cover;
-
   font-family: 'Montserrat', sans-serif;
-
-  color: white;
-
+  color: #282828;
 }
-
 #inputContainer {
-
   display: flex;
-
   justify-content: center;
-
   align-items: center;
-
   height: 100vh;
-
   flex-direction: column;
-
 }
-
 input[type="number"],
-
 button {
-
   font-size: 36px;
-
   padding: 30px 50px;
-
   border-radius: 20px;
-
-  border: 6px solid white;
-
-  color: white;
-
+  border: 6px solid #ffa5c6;
+  color: #282828;
   background-color: transparent;
-
   margin: 30px;
-
   cursor: pointer;
-
 }
 
 #outputContainer {
-
   margin-top: 30px;
-
   font-size: 42px;
-
 }
 
 #footer {
-
   position: absolute;
-
   bottom: 60px;
-
   width: 100%;
-
   font-size: 30px;
-
 }
 
 @media (max-width: 600px) {
-
   input[type="number"],
-
   button {
-
     font-size: 32px;
-
     padding: 26px 44px;
-
   }
-
   #outputContainer {
-
     font-size: 38px;
-
   }
-
   #footer {
-
     font-size: 26px;
-
   }
-
 }
-
