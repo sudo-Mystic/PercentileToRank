@@ -12,9 +12,9 @@ document.getElementById("submitBtn").addEventListener("click", function() {
 
   var rank = 822000 - (822000*score) / 100;
 
-  var deviation = Math.min(20000, Math.max(2000, rank/50));
+  var deviation = Math.min(2000, Math.max(50, rank/50));
 
-  var rankRangeLow = rank - deviation;
+  var rankRangeLow = Math.max(rank - deviation, 1);
 
   var rankRangeHigh = rank + deviation;
 
