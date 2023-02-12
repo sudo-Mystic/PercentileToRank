@@ -1,6 +1,9 @@
-document.getElementById("submitBtn").addEventListener("click", function() {
+document.getElementById("inputForm").addEventListener("submit", function(event) {
+  event.preventDefault();
 
   var score = document.getElementById("score").value;
+
+  score = score.trim();
 
   if (isNaN(score) || score === "" || score > 100 || score < 0) {
 
@@ -23,6 +26,3 @@ document.getElementById("submitBtn").addEventListener("click", function() {
   document.getElementById("outputContainer").innerHTML = "Rank Range: " + rankRange;
 
 });
-
-
-
